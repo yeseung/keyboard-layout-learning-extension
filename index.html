@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body style="width: 800px">
+
+
+<div class="container" id="con_a">
+    <div class="progress-container">
+        <span class="progress-label">진행율</span>
+        <span id="progress_bar" style="width: 0%"></span>
+    </div>
+
+    <div class="char-container" id="char_a">
+        <div id="c_0" class="char on">A</div>
+        <div id="c_1" class="char ok">S</div>
+        <div id="c_2" class="char">D</div>
+        <div id="c_3" class="char">F</div>
+        <div id="c_4" class="char">H</div>
+        <div id="c_5" class="char">G</div>
+        <div id="c_6" class="char">L</div>
+        <div id="c_7" class="char">K</div>
+    </div>
+
+    <div class="keyboard" id="kbd_a">
+        <div class="key-row"><div class="key" id="k_1">1</div><div class="key" id="k_2">2</div><div class="key" id="k_3">3</div><div class="key" id="k_4">4</div><div class="key" id="k_5">5</div><div class="key" id="k_6">6</div><div class="key" id="k_7">7</div><div class="key" id="k_8">8</div><div class="key" id="k_9">9</div><div class="key" id="k_0">0</div><div class="key">-</div><div class="key">=</div><div class="key">\</div></div><div class="key-row"><div class="key" id="k_Q">ㅂ</div><div class="key" id="k_W">ㅈ</div><div class="key" id="k_E">ㄷ</div><div class="key" id="k_R">ㄱ</div><div class="key" id="k_T">ㅅ</div><div class="key" id="k_Y">ㅛ</div><div class="key" id="k_U">ㅕ</div><div class="key" id="k_I">ㅑ</div><div class="key" id="k_O">ㅐ</div><div class="key" id="k_P">ㅔ</div><div class="key">[</div><div class="key">]</div></div><div class="key-row"><div class="key" id="k_A">ㅁ</div><div class="key" id="k_S">ㄴ</div><div class="key" id="k_D">ㅇ</div><div class="key" id="k_F">ㄹ</div><div class="key" id="k_G">ㅎ</div><div class="key" id="k_H">ㅗ</div><div class="key" id="k_J">ㅓ</div><div class="key" id="k_K">ㅏ</div><div class="key" id="k_L">ㅣ</div><div class="key">;</div><div class="key">'</div></div><div class="key-row"><div class="key" id="k_Z">ㅋ</div><div class="key" id="k_X">ㅌ</div><div class="key" id="k_C">ㅊ</div><div class="key" id="k_V">ㅍ</div><div class="key" id="k_B">ㅠ</div><div class="key" id="k_N">ㅜ</div><div class="key" id="k_M">ㅡ</div><div class="key">,</div><div class="key">.</div><div class="key">/</div></div>
+    </div>
+
+
+    <div class="setup-overlay" id="setup_ct">
+        <div class="setup-box">
+            <form name="setup_f1" onsubmit="return false;">
+                <p class="setup-title">연습할 언어와 자리를 선택하세요</p>
+
+                <div class="option-group">
+                    <label><input type="radio" name="kl" value="0" id="kl_0" checked /> 한글</label>
+                    <label><input type="radio" name="kl" value="1" id="kl_1" /> English</label>
+                </div>
+
+                <div class="option-group">
+                    <label><input type="radio" name="kp" id="kp_0" checked /> 중간</label>
+                    <label><input type="radio" name="kp" id="kp_1" /> 아래</label>
+                    <label><input type="radio" name="kp" id="kp_2" /> 위</label>
+                    <label><input type="radio" name="kp" id="kp_3" /> 모두</label>
+                    <label><input type="radio" name="kp" id="kp_4" /> 숫자</label>
+                </div>
+
+                <div class="key-visual" id="keyp_a">키보드자리</div>
+
+                <button type="button" class="btn" id="startBtn">시작</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    광고 :&nbsp;&nbsp;<a href="https://xn--ru4b32dw9ah8ozjciwk.kr" target="_blank" rel="noreferrer">https://한컴타자연습.kr</a>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

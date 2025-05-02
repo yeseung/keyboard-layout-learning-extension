@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "글쇠익힘 - 타자연습",
+    "description": "중간, 아래, 위, 숫자 자리를 선택하여 한글 또는 영어 타자 연습을 할 수 있는 교육용 확장 프로그램입니다.",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "32": "icon32.png",
+            "128": "icon128.png"
+        }
+    },
+    "icons": {
+        "32": "icon32.png",
+        "128": "icon128.png"
+    }
+}
